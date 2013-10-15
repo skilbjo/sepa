@@ -46,6 +46,7 @@ contents.each do |row|
 		mandate_new = row[:mandate_new]
 		mandate_date = row[:mandate_date]
 		bic = row[:biccode]
+		language = row[:language]
 
 		# set erb variables
 		firstname_erb = firstname
@@ -61,10 +62,11 @@ contents.each do |row|
 		bic_erb = bic
 		mandate_date_erb = mandate_date
 
-
-		# fill out erb template
-		form_letter = erb_template.result(binding)
-		save_letters(id,form_letter)
+		if language.eql?("English")
+			# fill out erb template
+			form_letter = erb_template.result(binding)
+			save_letters(id,form_letter)
+		end
 end
 
 puts 'Letters completed.'
