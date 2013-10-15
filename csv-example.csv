@@ -1,0 +1,5 @@
+id,first_name,last_name,address1,address2,address3,balance
+1,John,S,123 Bush St,APT 405,"San Francisco, CA 94108",100
+2,Renee,B,123 Divisidero,,"San Francisco, CA 94109",200
+3,Ash,S,123 4th Street,,"San Francisco, CA 94109",500
+4,Mary,H,123 5th St,,"San Francisco, CA 94109",700
