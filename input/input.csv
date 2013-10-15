@@ -1,3 +1,4 @@
+firstname,lastname,,,address1,city,state,postalcode,country,,,,,,,
 "firstname
  (nvarchar)","lastname
  (nvarchar)","applicantEmail
