@@ -1,0 +1,644 @@
+body,td,th {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3124C9;
+}
+body {
+	background-color: #E0CDCD;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.spacer {
+   font-size: 0px;
+}
+table {
+	text-align:left;
+}
+.bodyWhite {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.blueTitle
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:18px;
+	position: static;
+	color: #18295C;
+	text-decoration: none;
+	font-weight: bold;
+}
+.blueTitle a{
+	color:#666666;
+	text-decoration:none;
+}
+.blueTitle a:hover{
+	color:#2E9700;
+}
+.blueTitle-sub
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	position: static;
+	color: #2E9700;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.blueTitle-sub:hover {
+	text-decoration: underline;
+}
+td.copy a{
+	color: #999999;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+td.copy a:link {
+	color: #999999;
+	text-decoration: none;
+}
+td.copy a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+td.copy a:hover {
+	color: #2E9700;
+	text-decoration: none;
+}
+td.copy a:active {
+	color: #999999;
+	text-decoration: none;
+}
+td.greenBox a{
+	color: #666666;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+td.greenBox  a:link {
+	color: #002b00;
+	text-decoration: none;
+}
+td.greenBox  a:visited {
+	color: #002b00;
+	text-decoration: none;
+}
+td.greenBox  a:hover {
+	color: #006600;
+	text-decoration: none;
+}
+td.greenBox  a:active {
+	color: #002b00;
+	text-decoration: none;
+}
+td.blueBox a{
+	color: #666666;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+td.blueBox  a:link {
+	color: #003164;
+	text-decoration: none;
+}
+td.blueBox  a:visited {
+	color: #003164;
+	text-decoration: none;
+}
+td.blueBox  a:hover {
+	color: #006699;
+	text-decoration: none;
+}
+td.blueBox  a:active {
+	color: #003164;
+	text-decoration: none;
+}
+td.yellowBox a{
+	color: #666666;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+td.yellowBox  a:link {
+	color: #c95900;
+	text-decoration: none;
+}
+td.yellowBox  a:visited {
+	color: #c95900;
+	text-decoration: none;
+}
+td.yellowBox  a:hover {
+	color: #CC9933;
+	text-decoration: none;
+}
+td.yellowBox  a:active {
+	color: #c95900;
+	text-decoration: none;
+}
+td.leftNav {
+	color: #FFFFCC;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Helvetica, sans-serif;
+        no-repeat
+}
+td.leftNav a{
+	color: #FFFFCC;
+	text-decoration:none;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+td.leftNav  a:link {
+	color: #002b5e;
+	text-decoration: none;
+}
+td.leftNav  a:visited {
+	color: #002b5e;
+	text-decoration: none;
+}
+td.leftNav  a:hover {
+	color: #006699;
+	text-decoration: none;
+}
+td.leftNav  a:active {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+td.leftNav  a:visited:active {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+.text-normal{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	color: #333333;
+	text-decoration: none;
+}
+.textLink{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	color: #0000ff;
+	text-decoration: none;
+}
+a.textLink:hover {
+	color: #ff0000;
+}
+.topNav
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:10px;
+	position: static;
+	color: #777777;
+	text-decoration: none;
+}
+a.topNav:hover {
+	color: #2E9700;
+}
+.topNav2
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	position: static;
+	color: tomato;
+	text-decoration: none;
+}
+a.topNav2:hover {
+	color: #2E9700;
+}
+.middleNav {
+	FONT-SIZE: 12px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana;
+	TEXT-DECORATION: none;
+}
+a.middleNav:hover {
+	FONT-SIZE: 12px;
+	COLOR: #2E9700;
+	FONT-FAMILY: Verdana;
+	TEXT-DECORATION: none;
+}
+.splashLink
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	position: static;
+	text-decoration: none;
+        color: #2E9700;
+	font-weight: bold;
+}
+a.splashLink:hover {
+	text-decoration: underline;
+}
+.modules
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	position: static;
+	color: #18295C;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.modules:hover {
+	color: #2E9700;
+}
+
+.topMenu
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	position: static;
+	color: #18295C;
+	text-decoration: none;
+	font-weight: bold;
+}
+td.topMenu a:hover {
+	color: #2E9700;
+}
+td.topMenu a:link {
+	color: #18295C;
+}
+
+
+.grayTitle
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	position: static;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.grayTitle:hover {
+	color: #2E9700;
+}
+
+
+
+
+
+
+
+.title {
+        font-family: Verdana,sans-serif;
+        font-size: 22px;
+        color: #18295C;
+        text-transform: uppercase;
+}
+td {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: #111111;
+	text-decoration: none;
+}
+a {
+	color: #0000DD;
+	text-decoration: none;
+}
+.small {
+        font-family: Verdana, sans-serif;
+        font-size: 11px;
+}
+.smallFixed {
+        font-family: Courier, sans-serif;
+        font-size: 10px;
+}
+.header {
+        font-family: Verdana, sans-serif;
+        font-size: 11px;
+	font-weight: bold;
+}
+.tab {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+a.tab:hover {
+        color: #FFFFFF;
+        text-decoration : underline
+}
+.tab2 {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+a.tab2:hover {
+        color: #FFFFFF;
+        text-decoration : underline
+}
+.icon {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color: #0A328C;
+	font-weight: bold;
+	text-decoration : none
+}
+a.icon:hover {
+        font-family: Verdana,sans-serif;
+        font-size: 14px;
+        color: #FF0000;
+        font-weight: bold;
+        text-decoration : none
+}
+a.href:hover {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.href {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	color: #0000DD;
+	text-decoration: none;
+}
+.boxTop {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: #18295C;
+	text-decoration: none;
+	font-weight: bold;
+        padding: 1px;
+        text-transform: uppercase;
+}
+.input {
+        padding: 1px;
+        font-size: 11px;
+        font-family: Verdana;
+        border: 1px solid #4A5F9A;
+        background-color: #F5F8FB;
+        color: black
+}
+.inputInvisible {
+        padding: 1px;
+        font-size: 11px;
+        font-family: Verdana;
+        border: 1px solid #4A5F9A;
+        background-color: #F5F8FB;
+        color: blue
+}
+textarea {
+        padding: 1px;
+        font-size: 11px;
+        font-family: Verdana;
+        border: 1px solid #4A5F9A;
+        background-color: #F5F8FB;
+        color: black
+}
+.radio {
+        padding: 0px;
+        font-size: 11px;
+        font-family: Verdana;
+        border: 0px solid #4A5F9A;
+        background-color: #F5F8FB;
+        color: black
+}
+select {
+        font-size: 11px;
+        font-family: Verdana;
+        border: 1px solid #4A5F9A;
+        background-color: #F5F8FB;
+        color: #black
+}
+hr {
+        height: 1px;
+        color: #CCCCCC
+}
+p {
+        page-break-before: always;
+}
+#hintbox{ /*CSS for pop up hint box */
+	position:absolute;
+	top: 0;
+	background-color: white;
+	width: 292px; /*Default width of hint.*/
+	height: 208px; /*Default height of hint.*/
+	padding: 5px;
+	border:1px solid black;
+	font:normal 11px Verdana;
+	line-height:18px;
+	z-index:100;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	visibility: hidden;
+}
+#hintbox2{ /*CSS for pop up hint box2 */
+	position:absolute;
+	top: 0;
+	background-color: white;
+	width: 299px; /*Default width of hint.*/
+	height: 149px; /*Default height of hint.*/
+	padding: 0px;
+	border:0px solid black;
+	font:normal 11px Verdana;
+	line-height:18px;
+	z-index:100;
+	border-right: 0px solid black;
+	border-bottom: 0px solid black;
+	visibility: hidden;
+}
+
+.textSpan{	
+	display: block;
+	line-height: 19px;
+	text-align: right;
+	font-size: 11px;	
+	color: #FF0000;	
+}
+
+/* Tooltip */
+#tooltip {  
+    position:absolute;  
+    z-index:9999;  
+    color:#000;  
+    font-size:12px; 
+    white-space:pre-wrap;    
+} 
+.tipBody {  
+    background-color:#f0dc82;  
+    padding:5px; 
+    border: 1px solid #aaa;
+	-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-box-shadow: 2px 2px 5px#888;
+	box-shadow: 2px 2px 5px #888;
+}
+
+#yellowTooltip{
+    position:absolute;
+    border:1px solid #333;
+    background:#f7f5d1;
+    padding:2px 5px;
+    color:#333;
+    display:none;
+}   
+
+.errorW9 {
+	font-size: 0.9em;
+	border: 2px solid #CC0000;
+	margin: 10px 0px;
+	padding:15px 10px 15px 70px;
+	background: #fff url(/images/alert.jpg) no-repeat 5px 10px;
+	color: #000;
+}
+
+.errorW9 .warning {
+	color: #CC0000;
+	font-weight:bold;
+}
+
+.errorW9 ol li { list-style-type: decimal; }
+
+.rpError {
+	border:1px solid #aaa;
+	background: #efefef;
+	padding:8px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+}
+
+.gray-round-box {
+	border: 1px solid #dadada;
+	background: #efefef;
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px; /* Safari, Chrome */
+	border-radius: 8px; /* CSS3 */
+	padding:10px;	
+}
+.blue-round-box {
+	border: 1px solid #dadada;
+	background: #44ace4;
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px; /* Safari, Chrome */
+	border-radius: 8px; /* CSS3 */
+	padding:10px;	
+}
+#paybycash_locations span {font-weight:bold}
+#paybycash_locations div.title {margin:0 10px;font-size:12px;text-align:center}
+#account_info {width:60%;}
+#account_info table tr th, #account_info table tr td {color:#fff;text-align:left}
+#paybycash_flyer ol li {
+	margin-bottom:40px;
+}
+#paybycash_flyer select, #paybycash_flyer #paybycash_resident {
+	width:170px;
+}
+#paybycash_flyer #download {
+	text-align:center;
+}
+#paybycash_flyer_preview[language='English'] {
+	background: #fff url('/images/paybycash/rp_paybycash_flyer_bg.jpg') no-repeat;
+	width:800px;
+	height:1035px;
+}
+#paybycash_flyer_preview[language='Spanish'] {
+	background: #fff url('/images/paybycash/rp_paybycash_flyer_SPANISH.jpg') no-repeat;
+	width:800px;
+	height:1035px;
+}
+#paybycash_flyer_preview #paybycash_residentname {
+	position: relative;
+	top: 525px;
+	left: 550px;
+	width: 190px;
+	font-size:16px;
+	text-align:center;
+}
+#paybycash_flyer_preview #paybycash_accountnumber {
+	position: relative;
+	top: 532px;
+	left: 550px;
+	width: 190px;
+	font-size:16px;
+	text-align:center;
+}
+#paybycash_flyer_preview #paybycash_propertyname {
+	position: relative;
+	top: 743px;
+	left: 410px;
+	width: 330px;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: center;
+	font-weight:bold;
+}
+#paybycash_flyer_preview #paybycash_locations {
+	position:relative;
+	top:790px;
+	left:48px;
+}
+@-moz-document url-prefix() {
+	#paybycash_flyer_preview #paybycash_accountnumber {
+		top: 527px;
+	}
+	
+	#paybycash_flyer_preview #paybycash_propertyname {
+		top: 738px;
+	}
+
+	#paybycash_flyer_preview #paybycash_locations {
+		top:780px;
+	}
+}
+#paybycash_flyer_preview .paybycash_location {
+	float: left;
+	margin-right: 40px;
+	width: 206px;
+}
+#paybycash_flyer_preview .paybycash_location div {
+	margin-bottom:7px;
+}
+#paybycash_flyer_preview .paybycash_location div, #payByCashFlyerForm #property_name span {text-transform: capitalize}
+#payByCashFlyerForm #property_name span {
+	font-weight:bold;
+	font-style: italic;
+	color:#e61e26;
+}
+#paybycash_flyer_preview .paybycash_location .paybycash_city,
+#paybycash_flyer_preview .paybycash_location .paybycash_state,
+#paybycash_flyer_preview .paybycash_location .paybycash_zip {float:left;position:relative;}
+.paybycash_location div {height:20px;}
+#paybycash_flyer_preview .paybycash_location .paybycash_city {width:120px;}
+#paybycash_flyer_preview .paybycash_location .paybycash_state {left:10px;width:25px;text-align:center}
+#paybycash_flyer_preview .paybycash_location .paybycash_zip {left:22px}
+#payByCashFlyerForm .ui-dialog-titlebar {height:75px}
+#paybycash_location_dropdown #selectLocations option {text-transform:capitalize;}
+#paybycash_renter #paybycash_progress {margin:10px 0 0 0;text-align:center}
+#paybycash_renter #paybycash_progress img {vertical-align:bottom}
+#paybycash_renter #paybycash_locations ol li {margin-bottom:5px}
+.ui-effects-transfer { border: 2px dashed #000; }
+.ui-menu-item {white-space:nowrap;}
+#map_canvas {height: 95%;}
+#map_distance {margin-top:9px;font-weight:bold}
+#map_distance span {font-weight:normal;color:#666}
+
+/**
+* Clearfix hack
+**/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
