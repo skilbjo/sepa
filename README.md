@@ -1,11 +1,11 @@
 sepa-pdf-&-html-generator
 ========================
 
-Generates PDF via erb / html and wkhtmltopdf from a CSV. Written in Ruby by John Skilbeck.
+Generates PDF via erb / html and wkhtmltopdf from a CSV. Used for the SEPA letter task.
 
 Introduction
 ===
-Simple program that does the following
+This is a simple program that does the following
 
 	-I/O from a CSV, 
 	-parses it,  
@@ -46,13 +46,13 @@ Note: I installed wkhtmltopdf directly to my C:\ directory.
 
 Customize the output directories with this little bit:
 
-	Dir.mkdir('output') unless Dir.exists? 'output'
+	Dir.mkdir('output/html') unless Dir.exists? 'output/html'
 	Dir.mkdir('output/pdf') unless Dir.exists? 'output/pdf'
 	filename = "output/letter_#{id}.html"
 	file = kit.to_file("output/pdf/letter_#{id}.pdf")
 
 
-Your CSV is file is titled csv-example.csv - feel free to change the headers and title! Just don't forget, if you change the file name, update
+Your CSV is file is `input/input.csv` - feel free to change the headers and title! Just don't forget, if you change the file name, update
 
 	contents = CSV.open 'input/input.csv', headers: true, header_converters: :symbol
 
@@ -74,7 +74,7 @@ And if you change the headers, update the header variables
 	bic = row[:biccode]
 
 
-Setting the erb variables in form-letter.rb like so:
+Setting the erb variables in `sepa.rb` like so:
 	
 	firstname_erb = firstname
 	lastname_erb = lastname
@@ -90,12 +90,14 @@ Setting the erb variables in form-letter.rb like so:
 	mandate_date_erb = mandate_date
 
 
-and in form-letter.erb like this
+and in `sepa.erb` like this
 
 	<h4>Customer Name: <%= firstname_erb %> <%= lastname_erb %></h4>
     <tr>
       <td>Bank Identification Code (BIC): </td>
       <td><%= bic_erb %></td>
     </tr>
+
+Your letters will be in the `output` directory.
 
 Enjoy!
